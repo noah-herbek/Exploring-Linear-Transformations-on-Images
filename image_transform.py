@@ -42,7 +42,7 @@ print(f'The dimension of the image_np is {image0_np.shape}')
 image1 = image_transform(image0, 1/2, 0, 0, 1/2)
 showimage(image1)
 
-
+"""
 #Linear Transformation 2
 image2 = image_transform(image0, -3/5, 4/5, 4/5, 3/5)
 showimage(image2)
@@ -62,6 +62,7 @@ showimage(image1)
 image3 = image_transform(image3, 3/5, -4/5, -4/5, -3/5)
 showimage(image3)
 
+"""
 #Linear Transformation 6
-image4 = image_transform(image0, 0, 1, 0.5, 1)
+image4 = image_transform(image1, 0, 1, 0.5, 1)
 showimage(image4)
