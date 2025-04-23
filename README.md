@@ -13,8 +13,7 @@ Preparations:
     and name it image0. Convert image0 to a NumPy array named image0 np. Print
     the shape of image0 np to verify its dimensions.
 Reference:
-    https://github.com/songqsh/ma2071_v01/blob/master/src/image_transform_pil.
-    ipynb
+    https://github.com/songqsh/ma2071_v01/blob/master/src/image_transform_pil.ipynb
 Linear Transformations: 
     Perform the following linear transformations on the x-y plane, assuming the center of the plane is the origin:
     (1) Transformation T1: Construct a linear transformation that scales image0 to half its size, and name it image1. Find the standard matrix of T1 and print image1.
