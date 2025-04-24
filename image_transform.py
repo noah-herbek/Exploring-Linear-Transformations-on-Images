@@ -36,13 +36,14 @@ def showimage(wantedimage):
 image0 = Image.open("spencer.jpg")
 image0_np = np.array(image0)
 print(f'The dimension of the image_np is {image0_np.shape}')
+showimage(image0_np)
 
 
 #Linear Transformation 1
 image1 = image_transform(image0, 1/2, 0, 0, 1/2)
 showimage(image1)
 
-"""
+
 #Linear Transformation 2
 image2 = image_transform(image0, -3/5, 4/5, 4/5, 3/5)
 showimage(image2)
@@ -62,7 +63,7 @@ showimage(image1)
 image3 = image_transform(image3, 3/5, -4/5, -4/5, -3/5)
 showimage(image3)
 
-"""
+
 #Linear Transformation 6
 image4 = image_transform(image1, 0, 1, 0.5, 1)
 showimage(image4)
